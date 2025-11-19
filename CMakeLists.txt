@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.6)
 project(KDTree CXX)
 
 #set(CMAKE_CXX_COMPILER             "/usr/bin/g++")
-set(CMAKE_CXX_FLAGS                "-Wall -Wextra -Werror -std=c++17")
+#set(CMAKE_CXX_FLAGS                "-Wall -Wextra -Werror -std=c++17")
 set(CMAKE_CXX_FLAGS_DEBUG          "-g")
 set(CMAKE_CXX_FLAGS_MINSIZEREL     "-Os -DNDEBUG")
 set(CMAKE_CXX_FLAGS_RELEASE        "-O3 -DNDEBUG")
